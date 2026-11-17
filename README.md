@@ -24,10 +24,10 @@ Team Nova Codebase Genius is an automated documentation generator for Python Git
 
 ### 1. Install the Jac toolchain
 
-Jac ships as a single self-contained binary (no Python/pip install needed for the toolchain itself):
+Jac ships as a single self-contained binary (no Python/pip install needed for the toolchain itself). This project targets **Jac v0.34.17**:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/jaseci-labs/jaseci/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/jaseci-labs/jaseci/main/scripts/install.sh | bash -s -- --version 0.34.17
 ```
 
 ### 2. Install project dependencies
@@ -73,7 +73,7 @@ jac run main.jac
 
 ## Requirements
 
-- Jac 0.34.17+
+- Jac 0.34.17
 - See `jac.toml` for all dependencies.
 
 ## How It Works

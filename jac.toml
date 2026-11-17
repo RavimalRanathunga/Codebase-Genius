@@ -3,6 +3,7 @@ name = "team-nova-codebase-genius"
 version = "0.1.0"
 description = "Automated documentation generator for Python GitHub repositories, built with Jac."
 entry-point = "main.jac"
+jac_version = "0.34.17"
 
 [dependencies]
 requests = "*"
